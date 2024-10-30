@@ -48,5 +48,15 @@
         "condition": {
             "urlFilter": "*://*youtube.com/youtubei/v1/log_event*"
         }
+    },
+    {
+        "id": 7,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*youtube.com/ptracking*"
+        }
     }
 ]
